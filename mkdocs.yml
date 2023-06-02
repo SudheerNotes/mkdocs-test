@@ -1,0 +1,24 @@
+site_name: Sudheer Notes page
+theme:
+  name: material
+  features:
+   - navigation.tabs
+   - navigation.sections
+   - toc.integrate
+   - navigation.top
+   - search.suggest
+   - search.highlight
+   - content.tabs.link
+   - content.code.annotation
+   - content.code.copy
+  language: en
+
+
+
+copyright: |
+  &copy; 2011 Sudheer
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
